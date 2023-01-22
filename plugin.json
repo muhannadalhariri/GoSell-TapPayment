@@ -1,0 +1,11 @@
+{
+    "id": "deltaspikeme/gosell",
+    "name": "GoSell Tap Payment Gateway",
+    "namespace": "DeltaSpike\\GoSell\\",
+    "provider": "DeltaSpike\\GoSell\\Providers\\GoSellServiceProvider",
+    "author": "DeltaSpike Systems",
+    "url": "https://deltaspikeme.com",
+    "version": "1.0",
+    "description": "GolSell Tap Payment gateway integration",
+    "require": ["payment"]
+}

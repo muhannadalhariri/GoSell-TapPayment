@@ -1,0 +1,45 @@
+{
+    "name": "muhannadalhariri/gosell",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Muhannad Alhariri",
+            "email": "muh.acit@gmail.com"
+        }
+    ],
+    "require": {
+    	 "php": ">=8.0.0",
+        "guzzlehttp/guzzle": "^7.5.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "3.*",
+        "phpunit/phpunit": ">=8.0.0",
+        "php-coveralls/php-coveralls": "^2.2"
+    },
+    "autoload": {
+	    "psr-4": {
+	      "TapPayments\\": "src/"
+	    },
+         "classmap": [
+          "src/GoSell.php",
+          "src/Customers.php",
+          "src/Authorize.php",
+          "src/Charges.php",
+          "src/Refunds.php"
+        ]
+	  },
+  "autoload-dev": {
+    "psr-4": {
+      "TapPayments\\": [
+        "tests/",
+        "tests/TapPayments/"
+      ]
+    }
+  },
+  "scripts": {
+    "test": [
+      "phpunit tests/*.php"
+    ]
+  }
+}

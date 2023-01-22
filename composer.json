@@ -1,0 +1,8 @@
+{
+    "name": "deltaspikeme/gosell",
+    "description": "GoSell Tap Payment Plugin for Shopwise",
+    "type": "package",
+    "require": {
+        "muhannadalhariri/gosell": "dev-master"
+    }
+}
